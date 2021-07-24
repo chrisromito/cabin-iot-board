@@ -14,7 +14,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+#lib/
 lib64/
 parts/
 sdist/
@@ -127,3 +127,37 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.venv/
+.micropy/
+
+*.pyc
+
+.deps/*
+.vscode/
+.idea/
+scratch.txt
+/micropython/
+/src/settings_prod.py
+/micropython/.github/
+/micropython/docs/
+/micropython/drivers/
+/micropython/examples/
+/micropython/extmod/
+/micropython/lib/
+/micropython/logo/
+/micropython/mpy-cross/
+/micropython/ports/
+/micropython/py/
+/micropython/shared/
+/micropython/tests/
+/micropython/tools/
+/micropython/.git-blame-ignore-revs
+/micropython/.gitattributes
+/micropython/.gitignore
+/micropython/.gitmodules
+/micropython/ACKNOWLEDGEMENTS
+/micropython/CODECONVENTIONS.md
+/micropython/CODEOFCONDUCT.md
+/micropython/CONTRIBUTING.md
+/micropython/LICENSE
+/micropython/README.md
